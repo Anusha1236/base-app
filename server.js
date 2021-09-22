@@ -12,6 +12,10 @@ const app =express();
      console.log(err);
  });
 
+//to avoid console logs
+
+// console.log()=>{}
+
  app.listen(PORT,()=>{
      console.log(`server running on port ${PORT}`);
  })
