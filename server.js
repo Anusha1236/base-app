@@ -14,7 +14,7 @@ const app =express();
 
 //to avoid console logs
 
-// console.log()=>{}
+// console.log = function() {}
 
  app.listen(PORT,()=>{
      console.log(`server running on port ${PORT}`);
